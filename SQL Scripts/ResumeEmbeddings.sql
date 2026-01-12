@@ -1,0 +1,22 @@
+USE [ResumeReviewer]
+GO
+
+/****** Object:  Table [dbo].[ResumeEmbeddings]    Script Date: 1/12/2026 9:13:46 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ResumeEmbeddings](
+	[EmbeddingId] [int] IDENTITY(1,1) NOT NULL,
+	[ChunkId] [int] NULL,
+	[Vector] [varbinary](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[EmbeddingId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+

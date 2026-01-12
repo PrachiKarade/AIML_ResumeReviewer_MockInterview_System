@@ -1,0 +1,6 @@
+@ResumeReviewer_WebApiCore_HostAddress = http://localhost:5186
+
+GET {{ResumeReviewer_WebApiCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
