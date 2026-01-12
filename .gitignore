@@ -1,0 +1,31 @@
+# ===============================
+# .NET / ASP.NET Core
+# ===============================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# ===============================
+# App settings / secrets
+# ===============================
+appsettings.Development.json
+appsettings.Local.json
+
+# ===============================
+# Node / React / Vite
+# ===============================
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
